@@ -122,6 +122,18 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <plugin>
+                <groupId>com.google.cloud.tools</groupId>
+                <artifactId>jib-maven-plugin</artifactId>
+                <version>0.10.0</version>
+                <configuration>
+                    <to>
+                        <image>camel-jib:${project.version}</image>
+                    </to>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
