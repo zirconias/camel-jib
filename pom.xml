@@ -128,8 +128,11 @@
                 <artifactId>jib-maven-plugin</artifactId>
                 <version>0.10.0</version>
                 <configuration>
-                    <to>
+                    <!--<to>
                         <image>camel-jib:${project.version}</image>
+                    </to>-->
+		    <to>
+                        <image>registry.hub.docker.com/zirconias/camel-jib:${project.version}</image>
                     </to>
                 </configuration>
                 <executions>
